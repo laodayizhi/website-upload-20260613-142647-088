@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>影片搜索 - 不卡国产小视频 - 高清流畅在线观看平台</title>
+    <meta name="description" content="搜索不卡的高清视频在线观看内容，支持按影片名称、类型、地区、年份和标签查找。">
+    <meta name="keywords" content="不卡国产小视频,高清视频在线,免费视频观看,手机视频播放,国产视频大全,在线视频网站,视频播放器,短视频平台,影片搜索,视频搜索">
+    <meta property="og:title" content="影片搜索 - 不卡国产小视频 - 高清流畅在线观看平台">
+    <meta property="og:description" content="搜索不卡的高清视频在线观看内容，支持按影片名称、类型、地区、年份和标签查找。">
+    <meta name="theme-color" content="#020617">
+    <link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container header-inner">
+        <a class="site-logo" href="./index.html" aria-label="不卡国产小视频">
+            <span>不卡</span>国产小视频
+        </a>
+        <nav class="site-nav" data-site-nav>
+            <a class="nav-link" href="./index.html">首页</a>
+<a class="nav-link" href="./categories.html">分类</a>
+<a class="nav-link" href="./ranking.html">排行榜</a>
+<a class="nav-link active" href="./search.html">搜索</a>
+        </nav>
+        <button class="nav-toggle" type="button" data-nav-toggle aria-label="打开导航">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</header>
+<main>
+<section class="page-hero small-hero">
+    <div class="container">
+        <span class="eyebrow">Search</span>
+        <h1>影片搜索</h1>
+        <p>输入影片名称、类型、地区、年份或标签，快速查找可播放内容。</p>
+        <form class="hero-search inner-search" action="./search.html" method="get" data-site-search>
+            <input type="search" name="q" id="search-page-input" placeholder="输入关键词搜索">
+            <button type="submit">搜索</button>
+        </form>
+    </div>
+</section>
+<section class="container section-block">
+    <div class="search-result-head">
+        <h2>搜索结果</h2>
+        <span data-search-count></span>
+    </div>
+    <div class="movie-grid catalog-grid" id="search-results" data-search-results></div>
+    <div class="empty-state active" data-search-empty>输入关键词即可开始搜索</div>
+</section>
+</main>
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <a class="footer-logo" href="./index.html">不卡国产小视频</a>
+        <p>专业的不卡国产小视频在线观看平台，提供高清流畅的视频播放体验。支持多设备访问，海量精品视频内容，让您随时随地享受优质观看体验。</p>
+        <div class="footer-links">
+            <a href="./index.html">首页</a>
+            <a href="./categories.html">分类</a>
+            <a href="./ranking.html">排行榜</a>
+            <a href="./search.html">搜索</a>
+        </div>
+    </div>
+</footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script src="./assets/js/main.js" defer></script>
+<script src="./assets/js/search-index.js" defer></script>
+</body>
+</html>
